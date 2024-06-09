@@ -1,46 +1,36 @@
 import Project from "./Project"
+import matrix from "../assets/matrix.png"
+import landing from "../assets/landing.png"
+import classroom from "../assets/classroom.png"
 
 const Projects = () => {
     const projects=[
         {
             id:1,
-            title:"Background Matrix Rain",
-            summary:"This is a website summary This is a website summary This is a website summary",
-            technologies:["HTML","CSS"],
-            liveLink:"",
-            codeLink:""
+            title:"Matrix Rain Background",
+            summary:"This is a matrix rain background website using ",
+            technologies:["HTML","CSS","JavaScript"],
+            liveLink:"https://rukonbdju.github.io/matrix/",
+            codeLink:"https://github.com/rukonbdju/matrix",
+            image:matrix
         },
         {
             id:2,
-            title:"Background Matrix Rain",
-            summary:"This is a website summary This is a website summary This is a website summary",
-            technologies:["HTML","CSS"],
-            liveLink:"",
-            codeLink:""
+            title:"Landing Page",
+            summary:"This is a landing page of a IT solution company.",
+            technologies:["HTML","CSS","JavaScript"],
+            liveLink:"https://rukonbdju.github.io/tech-AI/",
+            codeLink:"https://github.com/rukonbdju/tech-AI",
+            image:landing
         },
         {
             id:3,
-            title:"Background Matrix Rain",
-            summary:"This is a website summary This is a website summary This is a website summary",
-            technologies:["HTML","CSS"],
-            liveLink:"",
-            codeLink:""
-        },
-        {
-            id:4,
-            title:"Background Matrix Rain",
-            summary:"This is a website summary This is a website summary This is a website summary",
-            technologies:["HTML","CSS"],
-            liveLink:"",
-            codeLink:""
-        },
-        {
-            id:5,
-            title:"Background Matrix Rain",
-            summary:"This is a website summary This is a website summary This is a website summary",
-            technologies:["HTML","CSS"],
-            liveLink:"",
-            codeLink:""
+            title:"Classroom Management App",
+            summary:"This is a full-stack web application using mongodb database.",
+            technologies:["JavaScript","Tailwind CSS","React","Express","Firebase","MongoDB","Node JS"],
+            liveLink:"https://my-classroom-bd.web.app/",
+            codeLink:"https://github.com/rukonbdju/my-classroom-client",
+            image:classroom
         },
     ]
     return (

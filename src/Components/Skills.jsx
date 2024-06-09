@@ -50,6 +50,9 @@ const Skills = () => {
                 <div  className="bg-white p-5 rounded-xl shadow-md">
                     <p className="text-xl font-bold">JWT</p>
                 </div>
+                <div  className="bg-white p-5 rounded-xl shadow-md">
+                    <p className="text-xl font-bold">Git & Github</p>
+                </div>
             </section>
         </div>
     )
