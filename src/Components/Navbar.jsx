@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 const Navbar=()=>{
     return(
-        <div className=" w-4/5 p-2 mt-2 backdrop-blur-md mx-auto flex flex-row items-center justify-between rounded-full border-2">
+        <div className=" w-4/5 p-2 mt-2 bg-red-100/50 backdrop-blur-md mx-auto flex flex-row items-center justify-between rounded-full border-2">
             <section>
                 <div>
                     <h1 className="text-2xl text-red-500 font-bold">Portfolio</h1>

@@ -19,7 +19,7 @@ const Services=()=>{
         },
     ]
     return(
-        <div>
+        <div className="mt-32">
             <section>
                 <header className="my-16">
                     <h3 className="text-2xl text-red-500 font-bold text-center">Services</h3>
