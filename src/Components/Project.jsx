@@ -8,8 +8,8 @@ const Project=({project})=>{
             </section>
             <section>
                 <div>
-                    <h1 className="text-3xl">{project.title}</h1>
-                    <p className="text-xl my-4">{project.summary}</p>
+                    <h1 className="text-xl">{project.title}</h1>
+                    <p className="text-md my-4">{project.summary}</p>
                 </div>
                 <div className=" flex flex-wrap gap-4">
                     {project.technologies.map((item)=><p key={item} className="px-3 py-1 bg-red-200 rounded-full">{item}</p>)}
