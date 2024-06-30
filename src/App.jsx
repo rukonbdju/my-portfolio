@@ -1,8 +1,7 @@
 
-import { useEffect } from 'react'
 import './App.css'
+import Achievement from './Components/Achievement'
 import Banner from './Components/Banner'
-import Blogs from './Components/Blogs'
 import Contact from './Components/Contact'
 import Footer from './Components/Footer'
 import Navbar from './Components/Navbar'
@@ -20,7 +19,7 @@ function App() {
       <Skills></Skills>
       <Services></Services>
       <Contact></Contact>
-      <Blogs></Blogs>
+      <Achievement></Achievement>
       <Footer></Footer>
     </main>
   )
