@@ -23,7 +23,7 @@ const Services=()=>{
             <section>
                 <header className="my-16">
                     <h3 className="text-xl text-red-500 font-bold text-center">Services</h3>
-                    <h1 className="text-4xl my-2 font-bold text-center">Provide Wide Range of Services</h1>
+                    <h1 className="text-4xl my-2 font-bold text-center text-tcolor">Provide Wide Range of Services</h1>
                 </header>
             </section>
             <section className="grid grid-cols-1 lg:grid-cols-3 gap-5 w-4/5 mx-auto">

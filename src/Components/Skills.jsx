@@ -1,58 +1,22 @@
 const Skills = () => {
+
+    const skills = ["HTML", "CSS", "Bootstrap", "Tailwind CSS", "C++", "Javascript", "Python", "React", "Next Js", "Node Js", "Express", "Firebase", "Git & Github", "JWT", "MongoDB", "Redux"]
+
     return (
         <div id="skills" className="mt-32">
             <section>
                 <header className="my-16">
                     <h4 className="text-2xl text-red-500 font-bold text-center">My Skills</h4>
-                    <h1 className="text-4xl my-2 font-bold text-center">Technologies I am Working With</h1>
+                    <h1 className="text-4xl text-tcolor my-2 font-bold text-center">Technologies I am Working With</h1>
                 </header>
             </section>
-            <section className="flex flex-wrap justify-center items-center gap-4 w-4/5 mx-auto my-10 border-2 border-dashed rounded-xl border-red-300 p-10 bg-red-50">
-                <div className="bg-white p-5 rounded-xl shadow-md">
-                    <p className="text-sm font-bold">HTML</p>
-                </div>
-                <div className="bg-white p-5 rounded-xl shadow-md">
-                    <p className="text-sm font-bold">CSS</p>
-                </div>
-                <div className="bg-white p-5 rounded-xl shadow-md">
-                    <p className="text-sm font-bold">Bootstrap</p>
-                </div>
-                <div className="bg-white p-5 rounded-xl shadow-md">
-                    <p className="text-sm font-bold">Tailwind CSS</p>
-                </div>
-                <div className="bg-white p-5 rounded-xl shadow-md">
-                    <p className="text-sm font-bold">C++</p>
-                </div>
-                <div className="bg-white p-5 rounded-xl shadow-md">
-                    <p className="text-sm font-bold">JavaScript</p>
-                </div>
-                <div  className="bg-white p-5 rounded-xl shadow-md">
-                    <p className="text-sm font-bold">React JS</p>
-                </div>
-                <div  className="bg-white p-5 rounded-xl shadow-md">
-                    <p className="text-sm font-bold">React Router Dom</p>
-                </div>
-                <div  className="bg-white p-5 rounded-xl shadow-md">
-                    <p className="text-sm font-bold">Next JS</p>
-                </div>
-                <div  className="bg-white p-5 rounded-xl shadow-md"> 
-                    <p className="text-sm font-bold">Node JS</p>
-                </div>
-                <div  className="bg-white p-5 rounded-xl shadow-md">
-                    <p className="text-sm font-bold">Express JS</p>
-                </div>
-                <div  className="bg-white p-5 rounded-xl shadow-md">
-                    <p className="text-sm font-bold">Firebase</p>
-                </div>
-                <div  className="bg-white p-5 rounded-xl shadow-md">
-                    <p className="text-sm font-bold">MongoDB</p>
-                </div>
-                <div  className="bg-white p-5 rounded-xl shadow-md">
-                    <p className="text-sm font-bold">JWT</p>
-                </div>
-                <div  className="bg-white p-5 rounded-xl shadow-md">
-                    <p className="text-sm font-bold">Git & Github</p>
-                </div>
+            <section className="flex flex-wrap justify-center items-center gap-4 w-4/5 mx-auto my-10 border-2 border-dashed rounded-xl border-red-300 p-10 bg-white/5">
+
+                {
+                    skills.map((skill, index) => <div key={index} className="bg-red-200/5 text-tcolor p-5 rounded-xl shadow-md">
+                        <p className="text-sm font-bold">{skill}</p>
+                    </div>)
+                }
             </section>
         </div>
     )

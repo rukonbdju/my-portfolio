@@ -1,4 +1,5 @@
 
+import { useEffect } from 'react'
 import './App.css'
 import Banner from './Components/Banner'
 import Blogs from './Components/Blogs'
@@ -12,7 +13,7 @@ import Skills from './Components/Skills'
 function App() {
 
   return (
-    <main>
+    <main id='main' className='bg-background'>
       <Navbar></Navbar>
       <Banner></Banner>
       <Projects></Projects>
