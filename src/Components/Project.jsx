@@ -17,7 +17,7 @@ const Project = ({ project }) => {
                     <p className="text-md text-tcolor my-4">{project.summary}</p>
                 </div>
                 <div className=" flex flex-wrap gap-4">
-                    {project.technologies.map((item) => <p key={item} className="px-3 py-1 bg-red-200 rounded-full">{item}</p>)}
+                    {project.technologies.map((item) => <p key={item} className="px-2 text-sm py-1 bg-red-200 rounded-full">{item}</p>)}
                 </div>
 
             </section>

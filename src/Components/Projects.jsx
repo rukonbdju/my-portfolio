@@ -8,7 +8,7 @@ const Projects = () => {
         {
             id:1,
             title:"Matrix Rain Background",
-            summary:"This is a matrix rain background website using ",
+            summary:"This is a matrix rain background website using 2d context in HTML Canvas.",
             technologies:["HTML","CSS","JavaScript"],
             liveLink:"https://rukonbdju.github.io/matrix/",
             codeLink:"https://github.com/rukonbdju/matrix",
