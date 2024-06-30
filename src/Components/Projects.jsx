@@ -36,7 +36,7 @@ const Projects = () => {
     return (
         <div id="projects" className="mt-32">
             <header className="my-16">
-                <h3 className="text-2xl text-red-500 font-bold text-center">Projects</h3>
+                <h3 className="text-2xl text-red-500 text-center">Projects</h3>
                 <h1 className="text-4xl text-tcolor my-2 font-bold text-center">Projects I Have Built</h1>
             </header>
             <section>

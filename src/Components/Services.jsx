@@ -22,7 +22,7 @@ const Services=()=>{
         <div id="services" className="mt-32">
             <section>
                 <header className="my-16">
-                    <h3 className="text-xl text-red-500 font-bold text-center">Services</h3>
+                    <h3 className="text-xl text-red-500 text-center">Services</h3>
                     <h1 className="text-4xl my-2 font-bold text-center text-tcolor">Provide Wide Range of Services</h1>
                 </header>
             </section>
